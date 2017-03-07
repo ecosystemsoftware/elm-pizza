@@ -1,0 +1,35 @@
+var _user$project$Models$initialModel = function (route) {
+	return {pizzas: _krisajenkins$remotedata$RemoteData$Loading, route: route};
+};
+var _user$project$Models$Model = F2(
+	function (a, b) {
+		return {pizzas: a, route: b};
+	});
+var _user$project$Models$Pizza = function (a) {
+	return function (b) {
+		return function (c) {
+			return function (d) {
+				return function (e) {
+					return function (f) {
+						return function (g) {
+							return function (h) {
+								return function (i) {
+									return function (j) {
+										return function (k) {
+											return {id: a, name: b, description: c, image: d, slug: e, keywords: f, totalfat: g, totalcarbs: h, totalprotien: i, totalcost: j, price: k};
+										};
+									};
+								};
+							};
+						};
+					};
+				};
+			};
+		};
+	};
+};
+var _user$project$Models$NotFoundRoute = {ctor: 'NotFoundRoute'};
+var _user$project$Models$PizzaRoute = function (a) {
+	return {ctor: 'PizzaRoute', _0: a};
+};
+var _user$project$Models$PizzasRoute = {ctor: 'PizzasRoute'};

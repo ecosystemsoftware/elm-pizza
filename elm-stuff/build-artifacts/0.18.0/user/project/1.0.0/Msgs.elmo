@@ -1,0 +1,6 @@
+var _user$project$Msgs$OnLocationChange = function (a) {
+	return {ctor: 'OnLocationChange', _0: a};
+};
+var _user$project$Msgs$OnFetchPizzas = function (a) {
+	return {ctor: 'OnFetchPizzas', _0: a};
+};

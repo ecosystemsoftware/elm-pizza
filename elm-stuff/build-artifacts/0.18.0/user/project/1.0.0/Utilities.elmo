@@ -1,0 +1,6 @@
+var _user$project$Utilities$formatCurrency = function (amount) {
+	return A2(
+		_elm_lang$core$String$append,
+		'£',
+		A2(_myrho$elm_round$Round$round, 2, amount));
+};
